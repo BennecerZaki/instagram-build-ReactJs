@@ -15,10 +15,12 @@ function App() {
       </div>
       <h1>Hello Zaki</h1>
 
-      <Post />
-      {/* Posts */}
-      {/* Posts */}
-      {/* Posts */}
+      <Post 
+        imageURL="https://images4.alphacoders.com/936/936378.jpg"
+        username="Zaki BENNECER"
+        caption="Wow it works 1/100 Day"
+        location="Batna, Algeria"
+      />
 
     </div>
   );
