@@ -1,10 +1,18 @@
 .Uploader {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 10px auto;
+}
+
+.container {
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+	width: 100%;
+	border-top: 1px solid lightgray;
 }
 
 .Uploader progress {
-    width: 100%;
+	width: 100%;
 }
