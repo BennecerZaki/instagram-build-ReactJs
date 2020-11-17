@@ -1,10 +1,13 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .App {
   background-color: #FAFAFA ;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .app__header {
@@ -14,8 +17,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
+#H1 {
+  padding-top: 80px;
+}
 .app__headerImage {
   object-fit: contain;
 }
@@ -27,4 +36,9 @@
   outline: none;
   border: 1px solid #a1a1a1;
   text-align: center;
+}
+
+.app__signUp {
+  display: flex;
+  flex-direction: column;
 }
