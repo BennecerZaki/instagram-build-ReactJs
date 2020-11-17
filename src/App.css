@@ -1,44 +1,42 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .App {
-  background-color: #FAFAFA ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .app__header {
-  background-color: white;
-  padding: 20px;
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+	background-color: white;
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 10;
 }
 
-#H1 {
-  padding-top: 80px;
-}
 .app__headerImage {
-  object-fit: contain;
+	object-fit: contain;
 }
 
 .app__header input {
-  background-color: #FAFAFA;
-  padding: 7px;
-  border-radius: 3px;
-  outline: none;
-  border: 1px solid #a1a1a1;
-  text-align: center;
+	background-color: #fafafa;
+	padding: 7px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #a1a1a1;
+	text-align: center;
 }
 
 .app__signUp {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }

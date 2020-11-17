@@ -191,13 +191,14 @@ function App() {
             location={post.location}
             key={id}
             postId={id}
+            user={user}
           /> 
         ))
       }
 
       {
         user?.displayName ? (
-          <ImageUpload username={user?.displayName} />
+          <ImageUpload className="imageUp" username={user?.displayName} />
         ) : (
           <h3>Sorry you need to login</h3>
         )
