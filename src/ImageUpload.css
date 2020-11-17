@@ -1,4 +1,10 @@
 .Uploader {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.Uploader progress {
     width: 100%;
 }

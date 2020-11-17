@@ -114,13 +114,7 @@ function App() {
         }
       </div>
       <h1 id="H1">Hello Zaki</h1>
-      {
-        user?.displayName ? (
-          <ImageUpload username={user?.displayName} />
-        ) : (
-          <h3>Sorry you need to login</h3>
-        )
-      }
+      
       
       <Modal
         open={open}
@@ -196,8 +190,17 @@ function App() {
             caption={post.caption}
             location={post.location}
             key={id}
+            postId={id}
           /> 
         ))
+      }
+
+      {
+        user?.displayName ? (
+          <ImageUpload username={user?.displayName} />
+        ) : (
+          <h3>Sorry you need to login</h3>
+        )
       }
 
     </div>
